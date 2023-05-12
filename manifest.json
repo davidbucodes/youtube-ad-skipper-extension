@@ -1,0 +1,11 @@
+{
+  "name": "Youtube Ad Skip",
+  "manifest_version": 2,
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://*.youtube.com/*"],
+      "js": ["index.js"]
+    }
+  ]
+}
